@@ -1,0 +1,117 @@
+.create-client-page {
+  min-height: 100vh;
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+.mobile-header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 16px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.back-button {
+  border: none;
+  background: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.create-client-content {
+  max-width: 390px;
+  margin: auto;
+  padding: 24px 20px;
+}
+
+.create-client-content h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+}
+
+.register-client-button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #5b2aa8;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-client-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: #c62828;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.client-created-page {
+  min-height: 100vh;
+  max-width: 390px;
+  margin: auto;
+  padding: 80px 20px 30px;
+  text-align: center;
+  background: white;
+  box-sizing: border-box;
+}
+
+.success-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: #d8fff2;
+  color: #20b486;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.client-created-page h1 {
+  margin-bottom: 0;
+}
+
+.client-created-page h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.client-created-page p {
+  color: #666;
+  margin-bottom: 30px;
+}
